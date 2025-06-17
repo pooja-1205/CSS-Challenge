@@ -1,0 +1,32 @@
+:root{
+    --spoiler-color: #000000;
+}
+P{
+    line-height: 1.5em;
+}
+.post{
+ background-color: #e8eaed;
+ padding: 1em;
+ border-radius: 1em;
+ margin-bottom: 1em;
+}
+
+.spoiler{
+    background-color: var(--spoiler-color);
+    color: var(--spoiler-color);
+    transition: all .5s ease-in;
+}
+
+.spoiler:hover{
+    background-color: initial;
+    color: initial;
+}
+
+.box{
+    background-color: rgb(118, 130, 33);
+    padding: 1rem;
+    border-radius: 2rem;
+    border: rgb(92, 24, 194);
+    border-width: 0.2rem;
+    border-style: solid;
+}
