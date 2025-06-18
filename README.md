@@ -15,7 +15,7 @@ This repo showcases a series of creative and responsive mini-projects built usin
 <img src="img\Screenshot 2025-06-18 161416.png" alt="Centered Layout" width="300"/>
 
 <h1>Loading Animation 1</h1>
-<img src="img\Screen Recording 2025-06-18 161452.mp4" alt="Centered Layout" width="300"/>
+<img src="img\dots.gif" alt="Centered Layout" width="300"/>
 
 <h1>Loading Animation 2</h1>
 <img src="img\Screen Recording 2025-06-18 161537.mp4" alt="Centered Layout" width="300"/>
