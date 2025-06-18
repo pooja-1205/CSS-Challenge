@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: bisque;
+    border: 1rem solid rgb(250, 255, 223);
+    /* height: 100%; */
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;       /* Stack children vertically */
+    justify-content: center;      /* Vertically center the whole group */
+    align-items: center;          /* Horizontally center */
+    width: 100%;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;                    /* Adds spacing between dots */
+    margin-bottom: 1em;           /* Space between dots and <p> */
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Dot styles */
+.square {
+    height: 2.5em;
+    width: 2.5em;
+    animation: rotate 1s infinite;
+}
+
+.square1 {
+    background: red;
+}
+.square2 {
+    background: orange;
+}
+.square3 {
+    background: blue;
+}
+
+/* Animation */
+@keyframes rotate {
+    from {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(45deg);
+    }
+}
